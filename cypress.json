@@ -1,6 +1,6 @@
 
 {
-    "baseUrl": "https://demoqa.com/text-box",
+    "baseUrl": "https://www.google.es",
     "reporter": "cypress-multi-reporters",  
     "reporterOptions": {  
       "reporterEnabled": "cypress-mochawesome-reporter, mocha-junit-reporter",  
