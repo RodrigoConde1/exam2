@@ -1,0 +1,93 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Google Test",
+    "line": 1,
+    "id": "google-test",
+    "tags": [],
+    "uri": "google.feature",
+    "elements": [
+      {
+        "id": "google-test;make-a-search-and-validate-\"greaterthan\"-100000",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Make a search and validate \"greaterThan\" 100000",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open Google page",
+            "result": {
+              "status": "passed",
+              "duration": 2676000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "search by \"apple\"",
+            "result": {
+              "status": "passed",
+              "duration": 11237000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the result should be \"greaterThan\" and have 100000",
+            "result": {
+              "status": "failed",
+              "duration": 10732000000,
+              "error_message": "AssertionError: Timed out retrying after 10000ms: expected 8 to be above 100000\n    + expected - actual\n\n    -8\n    +100000\n\n    at Context.eval (cypress/e2e/steps/google.js:22:21)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "google-test;make-a-search-and-validate-\"lessthan\"-10000",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Make a search and validate \"lessThan\" 10000",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open Google page",
+            "result": {
+              "status": "passed",
+              "duration": 2330000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "search by \"apple\"",
+            "result": {
+              "status": "passed",
+              "duration": 10562000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the result should be \"lessThan\" and have 10000",
+            "result": {
+              "status": "passed",
+              "duration": 172000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

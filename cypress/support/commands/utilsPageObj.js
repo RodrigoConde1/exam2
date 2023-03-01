@@ -15,7 +15,7 @@ class TextBoxPage{
     } 
    
     getAmoutResult(){
-        return cy.get("#result-stats")
+        return cy.get("#result-stats",{timeout: 5000})
     } 
 }
 
