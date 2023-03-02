@@ -22,7 +22,7 @@
             "name": "I open Google page",
             "result": {
               "status": "passed",
-              "duration": 2676000000
+              "duration": 1248000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "search by \"apple\"",
             "result": {
               "status": "passed",
-              "duration": 11237000000
+              "duration": 6415000000
             }
           },
           {
@@ -42,8 +42,8 @@
             "name": "the result should be \"greaterThan\" and have 100000",
             "result": {
               "status": "failed",
-              "duration": 10732000000,
-              "error_message": "AssertionError: Timed out retrying after 10000ms: expected 8 to be above 100000\n    + expected - actual\n\n    -8\n    +100000\n\n    at Context.eval (cypress/e2e/steps/google.js:22:21)"
+              "duration": 10307000000,
+              "error_message": "AssertionError: Timed out retrying after 10000ms: expected 8 to be above 100000\n    + expected - actual\n\n    -8\n    +100000\n\n    at Context.eval (cypress/e2e/steps/google.js:21:21)"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "name": "I open Google page",
             "result": {
               "status": "passed",
-              "duration": 2330000000
+              "duration": 1116000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "search by \"apple\"",
             "result": {
               "status": "passed",
-              "duration": 10562000000
+              "duration": 4820000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "the result should be \"lessThan\" and have 10000",
             "result": {
               "status": "passed",
-              "duration": 172000000
+              "duration": 199000000
             }
           }
         ]

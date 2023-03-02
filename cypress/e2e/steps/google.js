@@ -18,7 +18,6 @@ When('search by {string}', (search) => {
 Then('the result should be {string} and have {int}', (length, amount) => {
   googlePage.getAmoutResult().invoke("text").then(($result) => {
     const results = googleActions.parseField($result)
-    console.log(results)
     cy.wrap(results).should(`be.${length}`, amount)
   })
 })
